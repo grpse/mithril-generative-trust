@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "MithrilJS replacement for m.trust that generates a mithril component for HTML parsed.",
   "main": "./src/index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "gulp",
     "build": "./node_modules/.bin/webpack",
@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "mithril": "^1.1.6",
-    "simple-xml-parser": "git+https://github.com/grpse/simple-xml-parser.git#v0.0.2"
+    "simple-xml-parser": "https://github.com/grpse/simple-xml-parser.git#v0.0.3"
   }
 }
