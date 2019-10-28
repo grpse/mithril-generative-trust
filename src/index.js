@@ -98,7 +98,7 @@ function emptyElement(nodeEntry) {
 }
 
 function isTextEmpty(text) {
-    return text && (removeNewLines(text.trim()).trim().length === 0 || isHTMLSpaceEntitySequence(text.trim() || ''));
+    return text && removeNewLines(text.trim()).trim().length === 0;
 }
 
 /** @param {string} text */

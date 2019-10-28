@@ -1,4 +1,5 @@
 import generativeTrust from '../../src/index';
+import util from 'util';
 
 function testRenderer(tagName, attrs, children) {
     return {
@@ -6,6 +7,10 @@ function testRenderer(tagName, attrs, children) {
         attrs: attrs || {},
         children: children || ''
     }
+}
+
+function log(obj) {
+    console.log(util.inspect(obj, { depth: null }));
 }
 
 describe('Complex Tree Structure', function() {
